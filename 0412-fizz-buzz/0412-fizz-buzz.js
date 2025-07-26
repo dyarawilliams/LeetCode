@@ -3,23 +3,13 @@
  * @return {string[]}
  */
 var fizzBuzz = function(n) {
-    let answer = [];
-
+    let arr = []
+    
     for(let i = 1; i <= n; i++){
-        let currStr = "";
-
-        if(i % 3 == 0 && i % 5 == 0){
-            currStr += "FizzBuzz";
-        } else if (i % 3 == 0) {
-            currStr += "Fizz";
-        } else if (i % 5 == 0){
-            currStr += "Buzz";
-        } else {
-            currStr += i
-        }
-
-        answer.push(currStr);
-
+        if(i % 3 == 0 && i % 5 == 0) arr.push('FizzBuzz')
+        else if(i % 5 == 0) arr.push('Buzz')
+        else if(i % 3 == 0) arr.push('Fizz')
+        else arr.push(`${i}`)
     }
-    return answer;
+    return arr
 };
