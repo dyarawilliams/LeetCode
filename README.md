@@ -13,6 +13,7 @@ This repo contains solutions from LeetCode which are being pushed with the chrom
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/dyarawilliams/LeetCode/tree/master/0001-two-sum) |
+| [0383-ransom-note](https://github.com/dyarawilliams/LeetCode/tree/master/0383-ransom-note) |
 ## Math
 |  |
 | ------- |
@@ -30,6 +31,7 @@ This repo contains solutions from LeetCode which are being pushed with the chrom
 ## String
 |  |
 | ------- |
+| [0383-ransom-note](https://github.com/dyarawilliams/LeetCode/tree/master/0383-ransom-note) |
 | [0412-fizz-buzz](https://github.com/dyarawilliams/LeetCode/tree/master/0412-fizz-buzz) |
 ## Simulation
 |  |
@@ -47,4 +49,8 @@ This repo contains solutions from LeetCode which are being pushed with the chrom
 |  |
 | ------- |
 | [0908-middle-of-the-linked-list](https://github.com/dyarawilliams/LeetCode/tree/master/0908-middle-of-the-linked-list) |
+## Counting
+|  |
+| ------- |
+| [0383-ransom-note](https://github.com/dyarawilliams/LeetCode/tree/master/0383-ransom-note) |
 <!---LeetCode Topics End-->
