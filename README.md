@@ -16,6 +16,7 @@ This repo contains solutions from LeetCode which are being pushed with the chrom
 ## Math
 |  |
 | ------- |
+| [0412-fizz-buzz](https://github.com/dyarawilliams/LeetCode/tree/master/0412-fizz-buzz) |
 | [2383-add-two-integers](https://github.com/dyarawilliams/LeetCode/tree/master/2383-add-two-integers) |
 ## Prefix Sum
 |  |
@@ -25,4 +26,12 @@ This repo contains solutions from LeetCode which are being pushed with the chrom
 |  |
 | ------- |
 | [1791-richest-customer-wealth](https://github.com/dyarawilliams/LeetCode/tree/master/1791-richest-customer-wealth) |
+## String
+|  |
+| ------- |
+| [0412-fizz-buzz](https://github.com/dyarawilliams/LeetCode/tree/master/0412-fizz-buzz) |
+## Simulation
+|  |
+| ------- |
+| [0412-fizz-buzz](https://github.com/dyarawilliams/LeetCode/tree/master/0412-fizz-buzz) |
 <!---LeetCode Topics End-->
