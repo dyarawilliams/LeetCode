@@ -8,6 +8,7 @@ This repo contains solutions from LeetCode which are being pushed with the chrom
 | ------- |
 | [0001-two-sum](https://github.com/dyarawilliams/LeetCode/tree/master/0001-two-sum) |
 | [1603-running-sum-of-1d-array](https://github.com/dyarawilliams/LeetCode/tree/master/1603-running-sum-of-1d-array) |
+| [1791-richest-customer-wealth](https://github.com/dyarawilliams/LeetCode/tree/master/1791-richest-customer-wealth) |
 ## Hash Table
 |  |
 | ------- |
@@ -20,4 +21,8 @@ This repo contains solutions from LeetCode which are being pushed with the chrom
 |  |
 | ------- |
 | [1603-running-sum-of-1d-array](https://github.com/dyarawilliams/LeetCode/tree/master/1603-running-sum-of-1d-array) |
+## Matrix
+|  |
+| ------- |
+| [1791-richest-customer-wealth](https://github.com/dyarawilliams/LeetCode/tree/master/1791-richest-customer-wealth) |
 <!---LeetCode Topics End-->
