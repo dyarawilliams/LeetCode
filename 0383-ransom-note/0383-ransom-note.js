@@ -4,21 +4,27 @@
  * @return {boolean}
  */
 var canConstruct = function(ransomNote, magazine) {
-    const letterCount = new Map();
+    if(ransomNote.length > magazine.length) return false;
+    // Create a frequency array
+    let letterCount = new Array(26).fill(0);
 
-    // Count character frequencies in the magazine
-    for (let char of magazine){
-        letterCount.set(char, (letterCount.get(char) || 0) + 1);
+    // Populate the frequency array with character counts from the magazine
+    for (let i = 0; i < magazine.length; i++){
+        const charCode = magazine.charCodeAt(i) - 'a'.charCodeAt(0);
+        letterCount[charCode]++;
     }
     
-    // Check against the ransomNote
-    for (let char of ransomNote){
-        if(!letterCount.has(char) || letterCount.get(char) === 0){
-            return false;
-        }
-        letterCount.set(char, letterCount.get(char) - 1);
+    // Check if the ransomNote can be constructed
+    for (let i = 0; i < ransomNote.length; i++){
+        const charCode = ransomNote.charCodeAt(i) - 'a'.charCodeAt(0);
+        if(letterCount[charCode] === 0) return false;
+
+        // Decrement the count, indicating the character is used
+        letterCount[charCode]--;
+        
     }
-    return true;
-    // Time Complexity: O(n + m) - magazine.length >= ransomNote.length
-    // Space Complexity: O(1) In the worst-case scenario, the map will store at most 26 unique lowercase English letters (assuming a fixed alphabet size). If the problem allowed a larger or variable character set, the space complexity would be O(k) where k is the number of unique characters in the magazine.
+    return true; // all characters in ransomNote can be formed from magazine
+    
+    // Time Complexity: O(nm) - magazine.length >= ransomNote.length
+    // Space Complexity: O(k) 
 };
