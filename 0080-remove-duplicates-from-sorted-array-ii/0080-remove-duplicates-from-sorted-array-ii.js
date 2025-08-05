@@ -3,11 +3,13 @@
  * @return {number}
  */
 var removeDuplicates = function(nums) {
-    for (let i = 0; i < nums.length - 2; i++){
-        if(nums[i] === nums[i+2]){
-            nums.splice(i, 1)
-            i--
+    let k = 2
+    for (let i = 2; i < nums.length; i++){
+        // Check if the element to previous to current element
+        if (nums[i] !== nums[k-2]){
+            nums[k] = nums[i]
+            k++
         }
     }
-    return nums.length
+    return k
 };
