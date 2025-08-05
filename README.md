@@ -9,11 +9,13 @@ This repo contains solutions from LeetCode which are being pushed with the chrom
 | [0001-two-sum](https://github.com/dyarawilliams/LeetCode/tree/master/0001-two-sum) |
 | [1603-running-sum-of-1d-array](https://github.com/dyarawilliams/LeetCode/tree/master/1603-running-sum-of-1d-array) |
 | [1791-richest-customer-wealth](https://github.com/dyarawilliams/LeetCode/tree/master/1791-richest-customer-wealth) |
+| [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/dyarawilliams/LeetCode/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 ## Hash Table
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/dyarawilliams/LeetCode/tree/master/0001-two-sum) |
 | [0383-ransom-note](https://github.com/dyarawilliams/LeetCode/tree/master/0383-ransom-note) |
+| [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/dyarawilliams/LeetCode/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 ## Math
 |  |
 | ------- |
@@ -53,4 +55,8 @@ This repo contains solutions from LeetCode which are being pushed with the chrom
 |  |
 | ------- |
 | [0383-ransom-note](https://github.com/dyarawilliams/LeetCode/tree/master/0383-ransom-note) |
+## Sliding Window
+|  |
+| ------- |
+| [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/dyarawilliams/LeetCode/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 <!---LeetCode Topics End-->
