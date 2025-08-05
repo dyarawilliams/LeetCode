@@ -7,6 +7,7 @@ This repo contains solutions from LeetCode which are being pushed with the chrom
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/dyarawilliams/LeetCode/tree/master/0001-two-sum) |
+| [0027-remove-element](https://github.com/dyarawilliams/LeetCode/tree/master/0027-remove-element) |
 | [1603-running-sum-of-1d-array](https://github.com/dyarawilliams/LeetCode/tree/master/1603-running-sum-of-1d-array) |
 | [1791-richest-customer-wealth](https://github.com/dyarawilliams/LeetCode/tree/master/1791-richest-customer-wealth) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/dyarawilliams/LeetCode/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
@@ -52,6 +53,7 @@ This repo contains solutions from LeetCode which are being pushed with the chrom
 ## Two Pointers
 |  |
 | ------- |
+| [0027-remove-element](https://github.com/dyarawilliams/LeetCode/tree/master/0027-remove-element) |
 | [0908-middle-of-the-linked-list](https://github.com/dyarawilliams/LeetCode/tree/master/0908-middle-of-the-linked-list) |
 ## Counting
 |  |
