@@ -1,3 +1,5 @@
+# Sliding Window - Dynamic Window
+
 class Solution:
     def maximumSubarraySum(self, nums: List[int], k: int) -> int:
         max_sum = 0
@@ -7,7 +9,7 @@ class Solution:
         
         # Slide the window forward through the rest of the array by looping
         for right in range(len(nums)):
-            # Expand the window
+            # Append input[right] to window - Expand the window 
             elem = nums[right]
             current_sum += elem
             freq_map[elem] = freq_map.get(elem, 0) + 1 # update element count
