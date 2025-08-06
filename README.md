@@ -9,6 +9,7 @@ This repo contains solutions from LeetCode which are being pushed with the chrom
 | [0001-two-sum](https://github.com/dyarawilliams/LeetCode/tree/master/0001-two-sum) |
 | [0027-remove-element](https://github.com/dyarawilliams/LeetCode/tree/master/0027-remove-element) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/dyarawilliams/LeetCode/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
+| [0380-insert-delete-getrandom-o1](https://github.com/dyarawilliams/LeetCode/tree/master/0380-insert-delete-getrandom-o1) |
 | [1603-running-sum-of-1d-array](https://github.com/dyarawilliams/LeetCode/tree/master/1603-running-sum-of-1d-array) |
 | [1791-richest-customer-wealth](https://github.com/dyarawilliams/LeetCode/tree/master/1791-richest-customer-wealth) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/dyarawilliams/LeetCode/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
@@ -17,11 +18,13 @@ This repo contains solutions from LeetCode which are being pushed with the chrom
 | ------- |
 | [0001-two-sum](https://github.com/dyarawilliams/LeetCode/tree/master/0001-two-sum) |
 | [0003-longest-substring-without-repeating-characters](https://github.com/dyarawilliams/LeetCode/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0380-insert-delete-getrandom-o1](https://github.com/dyarawilliams/LeetCode/tree/master/0380-insert-delete-getrandom-o1) |
 | [0383-ransom-note](https://github.com/dyarawilliams/LeetCode/tree/master/0383-ransom-note) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/dyarawilliams/LeetCode/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
 ## Math
 |  |
 | ------- |
+| [0380-insert-delete-getrandom-o1](https://github.com/dyarawilliams/LeetCode/tree/master/0380-insert-delete-getrandom-o1) |
 | [0412-fizz-buzz](https://github.com/dyarawilliams/LeetCode/tree/master/0412-fizz-buzz) |
 | [1444-number-of-steps-to-reduce-a-number-to-zero](https://github.com/dyarawilliams/LeetCode/tree/master/1444-number-of-steps-to-reduce-a-number-to-zero) |
 | [2383-add-two-integers](https://github.com/dyarawilliams/LeetCode/tree/master/2383-add-two-integers) |
@@ -66,4 +69,12 @@ This repo contains solutions from LeetCode which are being pushed with the chrom
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/dyarawilliams/LeetCode/tree/master/0003-longest-substring-without-repeating-characters) |
 | [2552-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/dyarawilliams/LeetCode/tree/master/2552-maximum-sum-of-distinct-subarrays-with-length-k) |
+## Design
+|  |
+| ------- |
+| [0380-insert-delete-getrandom-o1](https://github.com/dyarawilliams/LeetCode/tree/master/0380-insert-delete-getrandom-o1) |
+## Randomized
+|  |
+| ------- |
+| [0380-insert-delete-getrandom-o1](https://github.com/dyarawilliams/LeetCode/tree/master/0380-insert-delete-getrandom-o1) |
 <!---LeetCode Topics End-->
