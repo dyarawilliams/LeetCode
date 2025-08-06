@@ -1,24 +1,34 @@
 class RandomizedSet {
-    set: Map<number, boolean>
+    set: Map<number, number>
+    items: number[]
     constructor() {
         this.set = new Map()
+        this.items = []
     }
 
     insert(val: number): boolean {
-        if (this.set.has(val)) return false
-        this.set.set(val, true)
+        if (val in this.set) return false
+        this.items.push(val)
+        this.set[val] = this.items.length - 1
         return true
     }
 
     remove(val: number): boolean {
-        if (!this.set.has(val)) return false
-        this.set.delete(val)
+        if (!(val in this.set)) return false
+        
+        const index = this.set[val]
+        const last = this.items[this.items.length - 1]
+
+        this.items[index] = last
+        this.items.pop()
+
+        this.set[last] = index
+        delete this.set[val]
         return true
     }
 
     getRandom(): number {
-        const index = Math.floor(Math.random() * this.set.size)
-        return Array.from(this.set.keys())[index]
+        return this.items[Math.floor(Math.random() * this.items.length)]
     }
 }
 
