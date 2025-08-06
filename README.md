@@ -7,6 +7,7 @@ This repo contains solutions from LeetCode which are being pushed with the chrom
 |  |
 | ------- |
 | [0001-two-sum](https://github.com/dyarawilliams/LeetCode/tree/master/0001-two-sum) |
+| [0026-remove-duplicates-from-sorted-array](https://github.com/dyarawilliams/LeetCode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0027-remove-element](https://github.com/dyarawilliams/LeetCode/tree/master/0027-remove-element) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/dyarawilliams/LeetCode/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0380-insert-delete-getrandom-o1](https://github.com/dyarawilliams/LeetCode/tree/master/0380-insert-delete-getrandom-o1) |
@@ -57,6 +58,7 @@ This repo contains solutions from LeetCode which are being pushed with the chrom
 ## Two Pointers
 |  |
 | ------- |
+| [0026-remove-duplicates-from-sorted-array](https://github.com/dyarawilliams/LeetCode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0027-remove-element](https://github.com/dyarawilliams/LeetCode/tree/master/0027-remove-element) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/dyarawilliams/LeetCode/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
 | [0908-middle-of-the-linked-list](https://github.com/dyarawilliams/LeetCode/tree/master/0908-middle-of-the-linked-list) |
