@@ -1,35 +1,22 @@
-# Sliding Window - Dynamic Window
+# Sliding Window - Fixed window
 
 class Solution:
     def maximumSubarraySum(self, nums: List[int], k: int) -> int:
-        max_sum = 0
+        ans = 0
         current_sum = 0
-        left = 0
-        freq_map = {} # stores frequency of elements in the current window
-        
-        # Slide the window forward through the rest of the array by looping
-        for right in range(len(nums)):
-            # Append input[right] to window - Expand the window 
-            elem = nums[right]
-            current_sum += elem
-            freq_map[elem] = freq_map.get(elem, 0) + 1 # update element count
+        left, right = 0, 0 # Initialize pointers
+        num_to_index = {} # create a hash map that will store the index of the last occurrence of nums
 
-            # Shrink the window if conditons are not met or window size exceeds k
-            while len(freq_map) < (right - left + 1) or (right - left + 1) > k:
-                # Remove input[left] from window
-                left_elem = nums[left]
-                current_sum -= left_elem # Removes leftmost element from sum
-                freq_map[left_elem] -= 1 # Decrease count in frequency map
-
-                if freq_map[left_elem] == 0:
-                    del freq_map[left_elem] # Remove if count becomes 0
-                
-                left += 1 # Slide the window forward
-            
-            # Check if the current window is a valid distinct subarray of length k
-            if (right - left + 1) == k and len(freq_map) == k:
-                max_sum = max(max_sum, current_sum) # Update max_sum
-            
-        return max_sum
-            
-
+        while right < len(nums):
+            curr_num = nums[right]
+            last_occurrence = num_to_index.get(curr_num, -1)
+            # if current window already has number or if window is too big, adjust window
+            while left <= last_occurrence or right - left + 1 > k:
+                current_sum -= nums[left] # update current sum
+                left += 1 # shrink window by 1
+            num_to_index[curr_num] = right
+            current_sum += nums[right]
+            if right - left + 1 == k:
+                ans = max(ans, current_sum)
+            right += 1
+        return ans
