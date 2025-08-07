@@ -10,6 +10,7 @@ This repo contains solutions from LeetCode which are being pushed with the chrom
 | [0026-remove-duplicates-from-sorted-array](https://github.com/dyarawilliams/LeetCode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0027-remove-element](https://github.com/dyarawilliams/LeetCode/tree/master/0027-remove-element) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/dyarawilliams/LeetCode/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
+| [0153-find-minimum-in-rotated-sorted-array](https://github.com/dyarawilliams/LeetCode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0380-insert-delete-getrandom-o1](https://github.com/dyarawilliams/LeetCode/tree/master/0380-insert-delete-getrandom-o1) |
 | [1603-running-sum-of-1d-array](https://github.com/dyarawilliams/LeetCode/tree/master/1603-running-sum-of-1d-array) |
 | [1791-richest-customer-wealth](https://github.com/dyarawilliams/LeetCode/tree/master/1791-richest-customer-wealth) |
@@ -81,4 +82,8 @@ This repo contains solutions from LeetCode which are being pushed with the chrom
 |  |
 | ------- |
 | [0380-insert-delete-getrandom-o1](https://github.com/dyarawilliams/LeetCode/tree/master/0380-insert-delete-getrandom-o1) |
+## Binary Search
+|  |
+| ------- |
+| [0153-find-minimum-in-rotated-sorted-array](https://github.com/dyarawilliams/LeetCode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 <!---LeetCode Topics End-->
