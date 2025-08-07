@@ -4,7 +4,6 @@
  */
 var findMin = function(nums) {
     let left = 0, right = nums.length - 1
-    let boundaryIndex = -1
 
     while (left < right){
         let mid = Math.floor((left + right) / 2)
