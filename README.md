@@ -41,6 +41,7 @@ This repo contains solutions from LeetCode which are being pushed with the chrom
 |  |
 | ------- |
 | [0003-longest-substring-without-repeating-characters](https://github.com/dyarawilliams/LeetCode/tree/master/0003-longest-substring-without-repeating-characters) |
+| [0125-valid-palindrome](https://github.com/dyarawilliams/LeetCode/tree/master/0125-valid-palindrome) |
 | [0383-ransom-note](https://github.com/dyarawilliams/LeetCode/tree/master/0383-ransom-note) |
 | [0412-fizz-buzz](https://github.com/dyarawilliams/LeetCode/tree/master/0412-fizz-buzz) |
 ## Simulation
@@ -61,6 +62,7 @@ This repo contains solutions from LeetCode which are being pushed with the chrom
 | [0026-remove-duplicates-from-sorted-array](https://github.com/dyarawilliams/LeetCode/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0027-remove-element](https://github.com/dyarawilliams/LeetCode/tree/master/0027-remove-element) |
 | [0080-remove-duplicates-from-sorted-array-ii](https://github.com/dyarawilliams/LeetCode/tree/master/0080-remove-duplicates-from-sorted-array-ii) |
+| [0125-valid-palindrome](https://github.com/dyarawilliams/LeetCode/tree/master/0125-valid-palindrome) |
 | [0908-middle-of-the-linked-list](https://github.com/dyarawilliams/LeetCode/tree/master/0908-middle-of-the-linked-list) |
 ## Counting
 |  |
